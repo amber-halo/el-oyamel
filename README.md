@@ -12,9 +12,9 @@ To be able to run the app you will need to install the following software in you
 
 - [Apache](http://apache.org/) - Web server (v2.4.x)
 - [PHP](https://www.php.net/) - Scripting language (v7.2.x)
-- [MySQL] - SQL database manager (v8.0). You can also use MariaDB
+- [MySQL](https://www.mysql.com/) - SQL database manager (v8.0). You can also use MariaDB
 - [Composer](https://getcomposer.org/) - Dependency Manager for PHP
-- [NodeJS] - Javascript runtime (v14.15.x). It already includes _npm_ which is a package manager
+- [NodeJS](https://nodejs.org/) - Javascript runtime (v14.15.x). It already includes _npm_ which is a package manager
 
 You can also use [xampp](https://www.apachefriends.org/download.html) if you do not want to install Apache, PHP and MySQL manually.
 
@@ -43,9 +43,9 @@ php artisan serve
 
 ## Authors
 
-* **Saul Aguilar**
-* **Axel Avila**
-* **Ivan Blancas**
+* **Saúl Aguilar**
+* **Axel Ávila**
+* **Iván Blancas**
 * **Isaac Valdespino**
 
 We're all students from the [Instituto Tecnológico de Zitácuaro](https://portal.itzitacuaro.edu.mx/), currently in 7th semester of Computational Systems Engineering. 
