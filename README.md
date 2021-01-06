@@ -20,7 +20,7 @@ You can also use [xampp](https://www.apachefriends.org/download.html) if you do 
 
 ### Installation
 
-Once you hace installed all the pre-requisites you'll need to run the following commands from the _el-oyamel root directory_.
+Once you have installed all the pre-requisites you'll need to run the following commands from the _el-oyamel root directory_.
 
 ```
 composer install

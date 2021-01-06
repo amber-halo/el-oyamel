@@ -1,6 +1,5 @@
-<nav x-data="{ open: false }" class=" border-b border-gray-100" style="background-color: #289849;">
+<nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
     <!-- Primary Navigation Menu -->
-    @auth
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex">
@@ -18,11 +17,7 @@
                     </x-jet-nav-link>
 
                     <x-jet-nav-link href="{{ route('dashboard') }}">
-                        {{ __('Usuarios') }}
-                    </x-jet-nav-link>
-
-                    <x-jet-nav-link href="{{ route('dashboard') }}">
-                        {{ __('Grupos') }}
+                        {{ __('Dashboard1') }}
                     </x-jet-nav-link>
                 </div>
             </div>
@@ -198,99 +193,4 @@
             </div>
         </div>
     </div>
-    @endauth
-
-    <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
-
-    @guest
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
-            <div class="flex">
-                <!-- Logo -->
-                <div class="flex-shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
-                        <x-jet-application-mark class="block h-9 w-auto" />
-                    </a>
-                </div>
-
-                <!-- Navigation Links -->
-                <div class="hidden space-x-8 lg:-my-px lg:ml-10 lg:flex">
-                    <x-jet-nav-link href="{{ route('inicio') }}" :active="request()->routeIs('inicio')">
-                        {{ __('Inicio') }}
-                    </x-jet-nav-link>
-
-                    <x-jet-nav-link href="{{ route('escuela-para-padres') }}" :active="request()->routeIs('escuela-para-padres')">
-                        {{ __('Escuela para padres') }}
-                    </x-jet-nav-link>
-
-                    <x-jet-nav-link href="{{ route('avisos') }}" :active="request()->routeIs('avisos')">
-                        {{ __('Avisos') }}
-                    </x-jet-nav-link>
-
-                    <x-jet-nav-link href="{{ route('blog') }}" :active="request()->routeIs('blog')">
-                        {{ __('Blog') }}
-                    </x-jet-nav-link>
-
-                    <x-jet-nav-link href="{{ route('quienes-somos') }}" :active="request()->routeIs('quienes-somos')">
-                        {{ __('¿Quiénes somos?') }}
-                    </x-jet-nav-link>
-
-                    @if (Route::has('login'))
-                    <div class="hidden fixed top-1 right-15 px-6 py-4 sm:block">
-                        @auth
-                            <a href="{{ url('/dashboard') }}" class="text-lg text-green-200 underline">Dashboard</a>
-                        @else
-                            <a href="{{ route('login') }}" class="text-lg text-green-200 underline">Iniciar sesión</a>
-
-                            @if (Route::has('register'))
-                                <a href="{{ route('register') }}" class="ml-4 text-lg text-green-200 underline">Registrarse</a>
-                            @endif
-                        @endif
-                    </div>
-                    @endif
-                </div>
-            </div>
-
-            <!-- Settings Dropdown -->
-            <!-- <div class="hidden sm:flex sm:items-center sm:ml-6">
-                
-            </div> -->
-
-            <!-- Hamburger -->
-            <div class="-mr-2 flex items-center lg:hidden">
-                <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
-                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                        <path :class="{'hidden': open, 'inline-flex': ! open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        <path :class="{'hidden': ! open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Responsive Navigation Menu -->
-    <div :class="{'block': open, 'hidden': ! open}" class="hidden lg:hidden">
-        <div class="pt-2 pb-3 space-y-1">
-            <x-jet-responsive-nav-link href="{{ route('inicio') }}" :active="request()->routeIs('inicio')">
-                {{ __('Inicio') }}
-            </x-jet-responsive-nav-link>
-
-            <x-jet-responsive-nav-link href="{{ route('escuela-para-padres') }}" :active="request()->routeIs('escuela-para-padres')">
-                {{ __('Escuela para padres') }}
-            </x-jet-responsive-nav-link>
-
-            <x-jet-responsive-nav-link href="{{ route('avisos') }}" :active="request()->routeIs('avisos')">
-                {{ __('Avisos') }}
-            </x-jet-responsive-nav-link>
-
-            <x-jet-responsive-nav-link href="{{ route('blog') }}" :active="request()->routeIs('blog')">
-                {{ __('Blog') }}
-            </x-jet-responsive-nav-link>
-
-            <x-jet-responsive-nav-link href="{{ route('quienes-somos') }}" :active="request()->routeIs('quienes-somos')">
-                {{ __('Quiénes somos') }}
-            </x-jet-responsive-nav-link>
-        </div>   
-    </div>
-    @endguest
 </nav>
