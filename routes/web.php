@@ -18,13 +18,50 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// Static templates routes
+
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('welcome1');
+})->name('inicio');
+
+Route::get('/escuela-para-padres', function () {
+    return view('static/escuela-para-padres');
+})->name('escuela-para-padres');
+
+Route::get('/avisos', function () {
+    return view('static/avisos');
+})->name('avisos');
+
+Route::get('/blog', function () {
+    return view('static/blog');
+})->name('blog');
+
+Route::get('/quienes-somos', function () {
+    return view('static/quienes-somos');
+})->name('quienes-somos');
+
+
+// Blog templates routes
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+
+
+
+
+
+
+
+
+
+
+// Tests, just ignore them
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/test', function () {
     $user = Auth::user();

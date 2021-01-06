@@ -51,7 +51,7 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-            'url' => env('APP_URL').'/storage',
+            'url' => env('').'/storage', // removed env('APP_URL') because Jetstream wasn't showing profile pictures correctly
             'visibility' => 'public',
         ],
 
