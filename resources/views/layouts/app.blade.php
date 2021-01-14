@@ -13,7 +13,8 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <link rel="stylesheet" href="{{ $styles }}">
+        <link rel="stylesheet" href="{{ asset('css/uikit.min.css') }}">
+        <script src="{{ asset('js/uikit.min.js') }}"></script>
 
         @livewireStyles
 
