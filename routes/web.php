@@ -44,6 +44,10 @@ Route::get('/quienes-somos', function () {
     return view('static/quienes-somos');
 })->name('quienes-somos');
 
+Route::get('/inicio', function () {
+    return view('static/inicio');
+})->name('inicio');
+
 
 // Blog templates routes
 

@@ -14,6 +14,7 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/uikit.min.css') }}">
+        @yield('linksCSS')
         <script src="{{ asset('js/uikit.min.js') }}"></script>
 
         @livewireStyles

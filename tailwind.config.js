@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
     purge: [
@@ -20,4 +21,14 @@ module.exports = {
     },
 
     plugins: [require('@tailwindcss/ui')],
+};
+
+module.exports = {
+    theme: {
+        colors: {
+            oyamelgreen: {
+                DEFAULT: '#289849'
+            }
+        }
+    }
 };

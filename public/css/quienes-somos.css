@@ -1,0 +1,24 @@
+.uk-button {
+    border: 1px solid #289849;
+    /* margin-right: 20px; */
+    font-weight: bold;
+    color: #289849;
+}
+
+.uk-button:hover {
+    background: #289849;
+    color: #fff;
+    border: none;
+}
+
+#ideario-card {
+    background: #289849;
+}
+
+#titulo-ideario, #definicion-ideario {
+    color: #fff;
+}
+
+#titulo-ideario {
+    font-weight: bold;
+}
