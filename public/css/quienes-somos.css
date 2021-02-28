@@ -22,3 +22,15 @@
 #titulo-ideario {
     font-weight: bold;
 }
+
+.container {
+    background: #289849;
+}
+
+.container p {
+    color: #fff;
+}
+
+.container h3 {
+    color: #fff;
+}
