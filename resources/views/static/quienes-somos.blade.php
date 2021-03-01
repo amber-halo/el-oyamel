@@ -80,7 +80,25 @@
                    </div>
                </div>
                 <!-- DE DÓNDE SURGE -->
-                
+                <div class="grid grid-cols-4 grid-rows-1 gap-4" id="dondeSurge">
+                    <div class="col-span-2" id="tituloDondeSurge"><h1>¿De dónde surge?</h1></div>
+                    <div class="col-span-2"><p>El proyecto de la escuela nace a partir de un grupo de padres de
+                        familia, convencidos de que la formación de las nuevas generaciones
+                        requiere de un enfoque de enseñanza respetuoso, amoroso e
+                        integrador, distinto a lo tradicional, visto que las necesidades actuales
+                        están en un constante cambio. <br>Consideramos temas cómo:</p>
+                        <ol>
+                            <li>El medio ambiente.</li>
+                            <li>La colaboración.</li>
+                            <li>La ética.</li>
+                            <li>El desarrollo humano.</li>
+                            <li>Las artes y la ciencia.</li>
+                        </ol>
+                    </div>
+                    <div class="col-span-4">Transformar el enfoque educativo de manera renovadora nos motiva e inspira a crear esta nueva escuela que se nutra constantemente y se guíe
+                        mediante las etapas de desarrollo del niño, para poder facilitarles el que sean personas sanas, felices, proactivas, comprometidas y responsables
+                        como agentes de cambio, buscando un sano desarrollo personal, en su comunidad, país y mundo. </div>
+                </div>
                 <!-- IDEARIO -->
                 <div style="margin-top: 30px">
                     <div class="flex flex-col justify-center">
@@ -105,11 +123,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="grid grid-cols-4 grid-rows-2 gap-4">
-                    <div style="background: greenyellow" class="col-span-2">1</div>
-                    <div style="background: greenyellow" class="col-span-2">2</div>
-                    <div style="background: greenyellow" class="col-span-4">3</div>
                 </div>
                 @show
             </div>
