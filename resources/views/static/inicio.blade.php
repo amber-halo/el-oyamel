@@ -20,8 +20,19 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, nemo.</p>
                     </div>
                 </div>
+                {{-- QUIÉNES SOMOS --}}
+                <div class="flex flex-col justify-center" id="quienesSomosInicio">
+                    <h2 class="text-center ...">¿Quiénes somos?</h2>
+                    <div>
+                        <p class="text-center ...">Una comunidad educativa sólida, coherente con nuestro actuar, honesta con nuestro sentir,
+                            consciente en nuestro pensar; que busca formar seres humanos sensibles, proactivos, críticos,
+                            creativos, solidarios y empoderados, con habilidades y voluntad para transformar nuestro
+                            mundo positivamente, constituyendo una manera de ser y de vivir.</p>
+                    </div>
+                    <button class="uk-button uk-button-default">Saber más</button>
+                </div>
                 {{-- GRUPOS --}}
-                <div class="flex flex-col justify-center">
+                <div class="flex flex-col justify-center" id="nuestrosGruposInicio">
                     <h2 class="text-center ...">Nuestros grupos</h2>
                     <div>
                         <p class="text-center ..." id="descripcionGrupos">La escuela cuenta con el grupo de jardín de niños, pasando al grupo de primaria de segundo grado hasta el octavo grado.</p>
@@ -158,6 +169,30 @@
                     </ul>
                     <a class="uk-position-center-left uk-position-small uk-hidden-hover" style="color: #000" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
                     <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color: #000" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
+                {{-- CONTÁCTANOS --}}
+                <div class="flex flex-col justify-center" id="contactanosInicio">
+                    <h2 class="text-center ...">Contáctanos</h2>
+                    <div>
+                        <p class="text-center ...">Incluimos un formulario por si surge alguna circunstancia o duda respecto a alguna materia
+                            o sobre la misma página
+                        </p>
+                    </div>
+                    <form action="" class="flex flex-col justify-center">
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="Nombre">
+                        </div>
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="Correo">
+                        </div>
+                        <div class="uk-margin">
+                            <input class="uk-input" type="number" placeholder="Teléfono">
+                        </div>
+                        <div class="uk-margin">
+                            <textarea class="uk-textarea" rows="5" placeholder="Comentario"></textarea>
+                        </div>
+                        <input type="submit" class="uk-button uk-button-default" name="" id="botonEnvio" value="Enviar">
+                    </form>
                 </div>
                 @show
             </div>

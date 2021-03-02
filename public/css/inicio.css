@@ -32,3 +32,49 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+p {
+    color: #000;
+}
+
+.uk-button {
+    width: 50%;
+    border-color: #289849;
+    color: #289849;
+    font-weight: bold;
+    margin: auto;
+}
+
+.uk-button:hover {
+    background: #289849;
+    color: #fff;
+    border: none;
+}
+
+#quienesSomosInicio {
+    margin-bottom: 100px;
+}
+
+#quienesSomosInicio h2, #nuestrosGruposInicio h2, #contactanosInicio h2 {
+    font-weight: bold;
+}
+
+.uk-margin {
+    width: 50%;
+    margin: auto;
+}
+
+.uk-margin input {
+    border-radius: 10px;
+    border: 1px solid #464646;
+}
+
+.uk-margin textarea {
+    border-radius: 10px;
+    border: 1px solid #464646;
+}
+
+form #botonEnvio {
+    margin-top: 30px;
+    width: 30%;
+}
