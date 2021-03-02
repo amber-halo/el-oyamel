@@ -1,6 +1,5 @@
 .uk-button {
     border: 1px solid #289849;
-    /* margin-right: 20px; */
     font-weight: bold;
     color: #289849;
 }
@@ -21,4 +20,32 @@
 
 #titulo-ideario {
     font-weight: bold;
+}
+
+.container {
+    background: #289849;
+}
+
+.container p {
+    color: #fff;
+}
+
+.container h3 {
+    color: #fff;
+}
+
+#valores {
+    margin-bottom: 100px;
+}
+
+#dondeSurge {
+    margin-bottom: 100px;
+    color: #000;
+}
+
+#tituloDondeSurge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px #999;
 }

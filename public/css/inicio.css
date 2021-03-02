@@ -1,0 +1,34 @@
+.titulosDeGrados {
+    color: #289849 !important;
+}
+
+#descripcionGrupos, .leading-7 {
+    color: #000;
+}
+
+#inicioOyamel {
+    min-height: 100vh;
+}
+
+#saberMas {
+    margin: auto;
+}
+
+#saberMas h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#saberMas button {
+    background: #289849;
+    border-radius: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+#saberMas a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -2,15 +2,29 @@
     <x-slot name="title">
         {{ __('Oyamel. Inicio') }}
     </x-slot>
+    @section('linksCSS')
+        <link rel="stylesheet" href="{{ asset('css/inicio.css') }}">
+        {{-- <script src="{{ asset('js/quienes-somos.js') }}"></script> --}}
+    @endsection
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden sm:rounded-lg">
                 @section('cuerpo')
                 <!-- Cuerpo -->
+                <div class="grid grid-cols-4 grid-rows-1 gap-4" id="inicioOyamel">
+                    <div class="col-span-2" id="saberMas">
+                        <h1>Oyamel en casa</h1>
+                        <button><a href="#">Saber más</a></button>
+                    </div>
+                    <div class="col-span-2">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, nemo.</p>
+                    </div>
+                </div>
+                {{-- GRUPOS --}}
                 <div class="flex flex-col justify-center">
                     <h2 class="text-center ...">Nuestros grupos</h2>
                     <div>
-                        <p class="text-center ...">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minus velit illum incidunt aspernatur nihil dolore sunt hic laudantium fuga voluptates ipsam praesentium, eligendi labore ab libero cumque deserunt eum.</p>
+                        <p class="text-center ..." id="descripcionGrupos">La escuela cuenta con el grupo de jardín de niños, pasando al grupo de primaria de segundo grado hasta el octavo grado.</p>
                     </div>
                 </div>
                 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
@@ -24,7 +38,7 @@
                                     </div>
                                     <div class="relative">
                                         <div class="py-10 px-8">
-                                            <h3 class="text-2xl font-bold text-center"><a href="#" style="color: #289849;">Jardín de niños</a></h3>
+                                            <h3 class="text-2xl font-bold text-center"><a href="#" class="titulosDeGrados">Jardín de niños</a></h3>
                                             <p class="leading-7 text-gray-900 text-center">
                                                 El jardín de niños es impartido por el docente Luis Ángel Arroyo Bucio
                                             </p>
@@ -42,7 +56,7 @@
                                     </div>
                                     <div class="relative">
                                         <div class="py-10 px-8">
-                                            <h3 class="text-2xl font-bold text-center"><a href="#" style="color: #289849;">Segundo grado</a></h3>
+                                            <h3 class="text-2xl font-bold text-center"><a href="#" class="titulosDeGrados">Segundo grado</a></h3>
                                             <p class="leading-7 text-gray-900 text-center">
                                                 El jardín de niños es impartido por el docente Oswaldo Munguia Reyes
                                             </p>
@@ -60,7 +74,7 @@
                                     </div>
                                     <div class="relative">
                                         <div class="py-10 px-8">
-                                            <h3 class="text-2xl font-bold text-center"><a href="#" style="color: #289849;">Tercer grado</a></h3>
+                                            <h3 class="text-2xl font-bold text-center"><a href="#" class="titulosDeGrados">Tercer grado</a></h3>
                                             <p class="leading-7 text-gray-900 text-center">
                                                 El jardín de niños es impartido por el docente Luis Ángel Arroyo Bucio
                                             </p>
@@ -78,7 +92,7 @@
                                     </div>
                                     <div class="relative">
                                         <div class="py-10 px-8">
-                                            <h3 class="text-2xl font-bold text-center"><a href="#" style="color: #289849;">Cuarto grado</a></h3>
+                                            <h3 class="text-2xl font-bold text-center"><a href="#" class="titulosDeGrados">Cuarto grado</a></h3>
                                             <p class="leading-7 text-gray-900 text-center">
                                                 El jardín de niños es impartido por la docente Alejandra Colín Jiménez
                                             </p>
@@ -96,7 +110,7 @@
                                     </div>
                                     <div class="relative">
                                         <div class="py-10 px-8">
-                                            <h3 class="text-2xl font-bold text-center"><a href="#" style="color: #289849;">Quinto grado</a></h3>
+                                            <h3 class="text-2xl font-bold text-center"><a href="#" class="titulosDeGrados">Quinto grado</a></h3>
                                             <p class="leading-7 text-gray-900 text-center">
                                                 El jardín de niños es impartido por la docente Cesia Raya López
                                             </p>
@@ -114,7 +128,7 @@
                                     </div>
                                     <div class="relative">
                                         <div class="py-10 px-8">
-                                            <h3 class="text-2xl font-bold text-center"><a href="#" style="color: #289849;">Séptimo grado</a></h3>
+                                            <h3 class="text-2xl font-bold text-center"><a href="#" class="titulosDeGrados">Séptimo grado</a></h3>
                                             <p class="leading-7 text-gray-900 text-center">
                                                 El jardín de niños es impartido por el docente Axel Bryan Ávila García
                                             </p>
@@ -132,7 +146,7 @@
                                     </div>
                                     <div class="relative">
                                         <div class="py-10 px-8">
-                                            <h3 class="text-2xl font-bold text-center"><a href="#" style="color: #289849;">Octavo grado</a></h3>
+                                            <h3 class="text-2xl font-bold text-center"><a href="#" class="titulosDeGrados">Octavo grado</a></h3>
                                             <p class="leading-7 text-gray-900 text-center">
                                                 El octavo grado es impartido por el docente Jose Manuel Colín Morales
                                             </p>

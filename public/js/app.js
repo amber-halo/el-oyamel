@@ -19330,7 +19330,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nError: Cannot find module 'tailwindcss/colors'\nRequire stack:\n- C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\tailwind.config.js\n- C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\tailwindcss\\lib\\index.js\n- C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\webpack.mix.js\n- C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\laravel-mix\\setup\\webpack.config.js\n- C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\webpack-cli\\bin\\utils\\convert-argv.js\n- C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\webpack-cli\\bin\\cli.js\n- C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\webpack\\bin\\webpack.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:923:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:768:27)\n    at Module.require (node:internal/modules/cjs/loader:995:19)\n    at require (C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\v8-compile-cache\\v8-compile-cache.js:159:20)\n    at Object.<anonymous> (C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\tailwind.config.js:2:16)\n    at Module._compile (C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\v8-compile-cache\\v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1120:10)\n    at Module.load (node:internal/modules/cjs/loader:971:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:812:14)\n    at Module.require (node:internal/modules/cjs/loader:995:19)\n    at require (C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\v8-compile-cache\\v8-compile-cache.js:159:20)\n    at C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\tailwindcss\\lib\\index.js:76:107\n    at C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\tailwindcss\\lib\\processTailwindFeatures.js:50:20\n    at LazyResult.run (C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\postcss\\lib\\lazy-result.js:288:14)\n    at LazyResult.asyncTick (C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\postcss\\lib\\lazy-result.js:212:26)\n    at LazyResult.asyncTick (C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\postcss\\lib\\lazy-result.js:225:14)\n    at C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\postcss\\lib\\lazy-result.js:217:17\n    at C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at C:\\xampp\\htdocs\\Oyamel\\el-oyamel\\node_modules\\postcss-loader\\src\\index.js:208:9");
 
 /***/ }),
 
@@ -19384,8 +19384,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\laravel\el-oyamel\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\laravel\el-oyamel\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\xampp\htdocs\Oyamel\el-oyamel\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Oyamel\el-oyamel\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
